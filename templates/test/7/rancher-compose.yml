@@ -1,0 +1,12 @@
+version: '2'
+catalog:
+  name: "test"
+  version: "8.0"
+  description: "Variable en el segundo contenedor"
+services:
+  fms:
+    scale: 1
+    start_on_create: true
+  fms2:
+    scale: 1
+    start_on_create: true
