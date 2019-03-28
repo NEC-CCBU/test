@@ -1,0 +1,9 @@
+version: '2'
+catalog:
+  name: "test"
+  version: "5.0"
+  description: "Borrar variable"
+services:
+  fms:
+    scale: 1
+    start_on_create: true
