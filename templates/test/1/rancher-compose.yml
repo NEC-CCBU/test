@@ -1,7 +1,7 @@
 version: '2'
 catalog:
   name: test
-  version: 1
+  version: 2
   description: test
 services:
   fms:
