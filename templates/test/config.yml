@@ -1,0 +1,8 @@
+name: Rancher test
+description: |
+  Rancher test
+version: v.0.0.1
+category: scale
+maintainer: CCOC Team
+license: MIT
+projectURL: www.nec.com
