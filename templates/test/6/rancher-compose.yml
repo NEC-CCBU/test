@@ -1,0 +1,12 @@
+version: '2'
+catalog:
+  name: "test"
+  version: "7.0"
+  description: "Añadir otro contenedor"
+services:
+  fms:
+    scale: 1
+    start_on_create: true
+  fms2:
+    scale: 1
+    start_on_create: true
