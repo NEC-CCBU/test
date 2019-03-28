@@ -1,8 +1,8 @@
 version: '2'
 catalog:
   name: "test"
-  version: "3.0"
-  description: "Nueva variable de entorno, FOO"
+  version: "4.0"
+  description: "Cambiar valor de variable"
 services:
   fms:
     scale: 1
