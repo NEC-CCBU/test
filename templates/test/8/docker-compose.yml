@@ -1,0 +1,10 @@
+version: '2'
+services:
+  fms:
+    image: regdev.nec-ccoc.com:5000/ccoc/fms:dev-6.4.23
+    stdin_open: true
+    volumes:
+    - /tmp:/tmp
+    tty: true
+    labels:
+      io.rancher.container.pull_image: always
