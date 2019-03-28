@@ -1,8 +1,8 @@
 version: '2'
 catalog:
-  name: test
-  version: 1.0
-  description: test
+  name: "test"
+  version: "1.0"
+  description: "test"
 services:
   fms:
     scale: 1
