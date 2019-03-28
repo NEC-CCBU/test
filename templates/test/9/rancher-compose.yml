@@ -1,0 +1,15 @@
+version: '2'
+catalog:
+  name: "test"
+  version: "10.0"
+  description: "con preguntas"
+  questions:
+    - variable: GO_SERVER_URL
+      label: Server URL
+      description: GOCD Server URL
+      required: true
+      type: string
+services:
+  fms:
+    scale: 1
+    start_on_create: true
